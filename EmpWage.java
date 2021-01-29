@@ -5,6 +5,7 @@ public class  EmpWage{
     public static final int MAX_EMP_WORKING_DAYS_IN_MONTH = 20;
     public static final int EMP_MAX_WORKING_HRS_IN_MONTH = 40;
     public static void main(String [] args){
+	    System.out.println("Welcome To Employee Wage");
 		int empWage =0, empWorkingHrs =0, totalEmpWorkingHrs = 0, totalWage = 0, totalWorkingDays = 0;
 
 		while(totalEmpWorkingHrs <=  EMP_MAX_WORKING_HRS_IN_MONTH && totalWorkingDays < MAX_EMP_WORKING_DAYS_IN_MONTH) {
